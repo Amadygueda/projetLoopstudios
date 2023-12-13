@@ -1,0 +1,555 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image: url(./images/mobile/image-hero.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    list-style: mone;
+}
+ul  a{
+    list-style: none;
+    color: #FFF;
+    
+}
+
+ul li{
+    list-style: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+
+}
+ul {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+   
+}
+.lien a {
+    color: #FFF;
+    font-family: 'Bai Jamjuree', sans-serif;   
+  }
+
+.logo{
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.toggle{
+    display: none;
+}
+.titre{
+    margin-top: 120px;
+    border: 1px white solid;
+    width: 290px;
+    height: 180px;
+    color: hsl(0, 0%, 100%);
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+   font-size: 2.4rem;
+    padding: 10px;
+    animation: deGaucheACentre 1s ease-out;
+    align-self: center;
+  
+}
+header{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+}
+.image1{
+    margin-top: 40px;
+    width: 280px;
+    height: 200px;
+    animation: deGaucheACentre 1s ease-out;
+}
+.description{
+    align-self: center;
+    justify-self: center;
+    animation: deplacerDeDroiteACentre 1s ease-out;
+}
+.titre2{
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1.6rem;
+    margin-top: 15px;
+}
+.paragraphe2{
+    text-align: center;
+    margin: 15px;
+    color: hsl(0, 0%, 55%);
+}
+h3{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1.4rem; 
+    text-align: center;
+    animation:deplacerDeHautAuCentre 1s ease-out;
+}
+.section2 p {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.3rem;
+    padding-left: 10px;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    height: 1100px;
+    position: relative;
+
+}
+.listes{
+    align-self: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.imageListe{
+    display: flex;
+    align-items: center;
+    width: 290px;
+    height: 100px;
+   margin-top: 20px;
+  
+}
+.im1{
+    background-image: url(./images/mobile/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: deGaucheACentre 1s ease-out;
+}
+.im2{
+    background-image: url(./images/mobile/image-night-arcade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: deGaucheACentre 1s ease-out;
+}
+.im3{
+    background-image: url(./images/mobile/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: deGaucheACentre 1s ease-out;
+}
+.im4{
+    background-image: url(./images/mobile/image-grid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: deGaucheACentre 1s ease-out;
+ 
+}
+.im5{
+    background-image: url(./images/mobile/image-from-above.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: deGaucheACentre 1s ease-out;
+}
+.im6{
+    background-image: url(./images/mobile/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: deGaucheACentre 1s ease-out;
+    
+}
+.im7{
+    background-image: url(./images/mobile/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: deGaucheACentre 1s ease-out;
+}
+.im8{
+    background-image: url(./images/mobile/image-fisheye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: deGaucheACentre 1s ease-out;
+    
+}
+
+.section2 a{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    margin-top: 10px;
+    margin-top: 25px;
+   text-align: center;
+   align-self: center;
+   text-decoration: none;
+   font-size: 20px;
+   color: black;
+   border: 0.5px solid;
+   width: 120px;
+   height: 30px;
+   padding-top: 5px;
+   font-family: 'Bai Jamjuree', sans-serif;
+   
+}
+.section2 a:hover{
+    background-color: black;
+    color: #FFF;
+    transition: 0.5s;
+}
+.imageListe:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 0.5s;
+}
+footer{
+    background-color: black;
+    height: 450px;
+    animation: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.link{
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+    align-self: center;
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Bai Jamjuree', sans-serif;   
+}
+.link a{
+    color: #FFF;
+    padding-top: 20px;
+   text-align: center;
+}
+.lastimage{
+   width: 140px;
+   align-self: center;
+  padding-top: 30px;
+  
+}
+.reseaux{
+   align-self: center;
+   margin-bottom: 50px;    
+}
+.reseaux a{
+    padding-left: 15px;
+}
+footer p{
+    align-self: center;
+   margin-bottom: 50px; 
+   color: #FFF;
+   margin-left: 15px;
+}
+.pied{
+    display: flex;
+    flex-direction: column;
+}
+.pied2{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+@media (max-width:700px){
+  
+    .toggle{
+        display:block;
+        cursor: pointer;
+        margin-top: 25px;
+        z-index: 25;
+        position: relative;
+      right: 15px;;
+    }
+    .fermer{
+        display: none;
+    }
+    .ouvert .fermer{
+        display: block;
+       
+    }
+    .ouvert .menuBurgureur{
+        display: none;
+    } 
+    ul{
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        margin-top: 0;
+        top: 0;
+        left: 0;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        padding-left: 25px;
+        justify-content: space-evenly;
+        padding-top: 20px;
+        transform: translate(-100%)
+    }
+    .logo{
+        z-index: 25;
+        position: relative;
+    }
+    .ouvert ul{
+        transform: translate(0) ;
+       
+    }
+}
+@media (min-width:700px){
+    header{
+        background-image: url(./images/desktop/image-hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
+    .logo{
+        height: 30px;
+    }
+    ul{
+        width: 650px;
+        padding-left: 40px;
+        justify-content: space-around;
+        flex-direction: row;
+        font-size: 1.2rem;
+    }
+    nav{
+        height: 100px;
+    }
+    .chemain:hover {
+        border-bottom: 2px solid white;
+       
+
+    }
+    .titre{
+        width: 500px;
+        align-self: self-start;
+        margin-left: 100px;
+        font-size: 2.8rem;
+    }
+    .section1{
+        display: flex;
+        flex-direction: row;
+        height: 800px;
+      
+    }
+    .image1{
+       height: 500px;
+       width: 50%; 
+       margin-top: 100px;
+       margin-left: 25px;
+    
+        
+    }
+    .description{
+        width:50%;
+     
+     justify-content: start;
+      background-color: #FFF;
+      z-index: 40;
+     height: auto;
+     
+      text-align: center;
+      padding: 15px 20px;
+      
+    }
+    .titre2{
+        font-size: 2.5rem;
+    }
+    .paragraphe2{
+        font-size: 1.3rem;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+        justify-content: space-between;
+    
+    }
+    .link{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 500px;
+        margin-bottom: 30px;
+        
+    }
+    .pied{
+        margin-top: 30px;
+    }
+    .lastimage{
+       margin-right: 350px;
+    }
+    .link a:hover{
+        border-bottom: #FFF  solid 1px;
+    
+}
+.pied2{
+    margin-top: 60px;
+    width: 60%;
+    height: auto;
+}
+
+.pied{
+    width: 50%;
+    height: auto;
+    margin-left: 50px;
+}
+
+.reseaux{
+    margin-left: 90px;
+}
+.pied2 p{
+    margin-left: 90px;
+}
+.millieux{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.millieux a{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: 50px;
+    width: 200px;
+    animation: deGaucheACentre 1s ease-out;
+}
+.millieux h3{
+    margin-left: 150px;
+    margin-top: 15px;
+    font-size: 2.9rem;
+}
+.etage1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+   
+ 
+}
+.etage2{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.imageListe{
+    margin-left: 20px;
+    height: 400px;
+    width: 200px;
+}
+.im1{
+    background-image: url(./images/desktop/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: deGaucheACentre 1s ease-out;
+}
+.im2{
+    background-image: url(./images/desktop/image-night-arcade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: deGaucheACentre 1s ease-out;
+}
+.im3{
+    background-image: url(./images/desktop/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: deGaucheACentre 1s ease-out;
+}
+.im4{
+    background-image: url(./images/desktop/image-grid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: deGaucheACentre 1s ease-out;
+ 
+}
+.im5{
+    background-image: url(./images/desktop/image-from-above.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: deGaucheACentre 1s ease-out;
+}
+.im6{
+    background-image: url(./images/desktop/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: deGaucheACentre 1s ease-out;
+    
+}
+.im7{
+    background-image: url(./images/desktop/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: deGaucheACentre 1s ease-out;
+}
+.im8{
+    background-image: url(./images/desktop/image-fisheye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: deGaucheACentre 1s ease-out;
+    
+}
+.section2 p{
+    margin-top: 95%;
+    font-size: 1.7rem;
+}
+.section2 p:hover{
+    color: black;
+    opacity: 2;
+}
+.imageListe:hover{
+  opacity: 0.6;
+}
+}
+
+@keyframes deplacerDeDroiteACentre {
+    from {
+        transform: translateX(100%); /* Part de la droite (hors de l'écran si l'élément est au bord droit) */
+    }
+    to {
+        transform: translateX(0); /* Se déplace vers la position originale (centre) */
+    }
+}
+
+
+@keyframes deGaucheACentre {
+    from{
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes deplacerDeBasEnHaut {
+    from {
+      transform: translateY(100%); /* Commence en bas (100% sous la position initiale) */
+    }
+    to {
+      transform: translateY(0); /* Termine à la position initiale (haut) */
+    }
+  }
+  
+  @keyframes deplacerDeHautAuCentre {
+    from {
+      transform: translateY(-50%); /* Commence en haut (50% au-dessus de la position centrale) */
+    }
+    to {
+      transform: translateY(0); /* Termine au centre (position initiale) */
+    }
+  }
